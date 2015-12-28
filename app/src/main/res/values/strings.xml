@@ -34,10 +34,12 @@
     <string name="retry">Tentar novamente</string>
     <string name="size_exceeded">Tamanho máximo excedido, resetando.</string>
     <string name="pref_description_change_code_pick_size">Escolha o tamanho do seu padrão</string>
+    <string name="will_restart_systemui">A SystemUI será automaticamente resetada depois do código ser definido.</string>
 
     <!-- Preferences -->
     <string name="pref_about_title">Sobre</string>
     <string name="pref_about_description">Ajuda, licença, autores, termo de responsabilidade, código</string>
+    <string name="pref_restart_systemui">Reiniciar a SystemUI</string>
 
     <string name="module_inactive">O módulo está inativo, toque aqui para mais informações</string>
     <string name="module_inactive_dialog">Knock Code está inativo</string>
@@ -101,11 +103,12 @@
 
     <string name="dialog_message_not_active">Knock Code não pode ligar aos métodos necessários do Sistema Android para que ele funcione. Pode haver vários motivos:\n
     &#x2022; <i>Xposed Framework não está instalado</i>\n
-    &#x2022; <i>Xposed está instalado e ativo, mas você não ativou o Knock Code no Xposed installer (\"Modules\" aba) ou não reiniciou o celular depois de ativar.</i>\n
+    &#x2022; <i>Xposed está instalado e ativo, mas você não ativou o Knock Code no Xposed installer (\"Módulos\" aba) ou não reiniciou o celular depois de ativar.</i>\n
     &#x2022; <i>Xposed Framework foi desativado pelo Xposed safemode. Olhe no fórum do Xposed no XDA para maiores informações.</i>\n
     &#x2022; <i>Knock Code pode ter travado. Você deveria me reportar esse bug no fórum do XDA (Menu -> Sobre -> Ajuda).</i></string>
     <string name="pref_show_dots_title">Mostrar os pontos</string>
     <string name="pref_desc_show_dots_on">Os pontos indicando os números de toques serão exibidos</string>
     <string name="pref_desc_show_dots_off">Os pontos indicando os números de toques não userão exibidos</string>
-
+    <string name="disable_knock_screen">Knock Code desativado, desligue a tela e ligue para voltar ao padrão antigo.</string>
+    <string name="reboot_unexpected">Por favor reinicie o celular para que as mudanças sejam efetudas, caso contrário não irá funcionar corretamente.</stri
 </resources>
